@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="53.5dip">
+        <TextView android:textSize="20.0dip" android:textColor="#ff000000" android:layout_gravity="left|center" android:id="@id/keyguardDialog_list_item_text" android:paddingLeft="23.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <CheckBox android:layout_gravity="right|center" android:id="@id/keyguard_dialog_checkbox" android:paddingRight="13.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/keyguard_dialog_checkbox_bg" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="bottom" android:background="@drawable/keyguard_dialog_list_cent_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</FrameLayout>

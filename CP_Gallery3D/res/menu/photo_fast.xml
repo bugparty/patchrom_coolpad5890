@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_ptp_holo_light" android:id="@id/action_import" android:visible="false" android:title="@string/Import" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_menu_save_holo_light" android:id="@id/action_save_bestphoto" android:visible="true" android:title="@string/save" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_menu_cancel_holo_light" android:id="@id/action_cancel_bestphoto" android:visible="true" android:title="@string/cancel" android:showAsAction="always|withText" />
+</menu>

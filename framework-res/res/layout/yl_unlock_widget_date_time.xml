@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="horizontal" android:id="@id/keyguard_widget_date_time_parent_layout" android:layout_width="fill_parent" android:layout_height="144.0dip" android:layout_marginLeft="3.2999878dip" android:layout_marginRight="3.2999878dip">
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/show_date_time_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginRight="42.0dip" android:layout_alignParentRight="true">
+                <com.android.internal.widget.DigitalClock android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="?textAppearanceMedium" android:textSize="80.0dip" android:ellipsize="none" android:id="@id/timeDisplayBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+                    <TextView android:textAppearance="?textAppearanceMedium" android:textSize="14.0dip" android:ellipsize="none" android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" android:layout_toRightOf="@id/timeDisplayBackground" android:layout_alignBaseline="@id/timeDisplayBackground" />
+                </com.android.internal.widget.DigitalClock>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/date_alarm_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="42.0dip" android:layout_below="@id/LinearLayout01" android:layout_alignParentRight="true">
+                <TextView android:textAppearance="?textAppearanceMedium" android:textSize="14.0dip" android:ellipsize="marquee" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="2.0" android:layout_alignParentRight="true" />
+                <TextView android:textAppearance="?textAppearanceMedium" android:textSize="14.0dip" android:ellipsize="marquee" android:id="@id/alarm_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.5dip" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="2.0" android:drawablePadding="4.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginRight="42.0dip" android:layout_below="@id/date_alarm_layout" android:layout_alignParentRight="true">
+                <TextView android:textAppearance="?textAppearanceMedium" android:textSize="14.0dip" android:ellipsize="marquee" android:id="@id/status1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="2.0" android:drawablePadding="4.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</FrameLayout>

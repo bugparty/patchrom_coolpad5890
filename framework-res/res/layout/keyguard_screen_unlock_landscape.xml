@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:rowCount="7"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/keyguard_widget_linearLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+        <include android:id="@id/yl_unlock_widget_layout" android:layout_width="fill_parent" android:layout_height="144.0dip" layout="@layout/yl_unlock_widget_layout" />
+    </LinearLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/mySwitchParentLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <FrameLayout android:layout_gravity="right" android:id="@id/mySwitchLinearLayout" android:layout_width="60.0dip" android:layout_height="30.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="43.5dip" />
+        <LinearLayout android:gravity="right" android:layout_gravity="right" android:orientation="horizontal" android:id="@id/slidingTipLinearLayout" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="43.5dip">
+            <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:id="@id/slidingTiptTextView" android:layout_width="17.5dip" android:layout_height="40.0dip" />
+            <ImageView android:id="@id/slidingTiptImageView" android:background="@drawable/keyguard_sliding_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <Space android:layout_gravity="fill" />
+    <TextView android:textAppearance="?textAppearanceMedium" android:textSize="@dimen/keyguard_lockscreen_status_line_font_size" android:ellipsize="marquee" android:gravity="right" android:layout_gravity="fill_horizontal" android:id="@id/carrier" android:layout_width="0.0dip" android:singleLine="true" />
+    <LinearLayout android:layout_gravity="right" android:orientation="vertical" style="?android:attr/buttonBarStyle">
+        <Button android:textSize="@dimen/keyguard_lockscreen_status_line_font_size" android:layout_gravity="right" android:id="@id/emergencyCallButton" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/lockscreen_emergency_call" android:drawableLeft="@drawable/lockscreen_emergency_button" android:drawablePadding="0.0dip" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:textSize="@dimen/keyguard_lockscreen_status_line_font_size" android:layout_gravity="right" android:id="@id/forgotPatternButton" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/lockscreen_forgot_pattern_button_text" android:drawableLeft="@drawable/lockscreen_forgot_password_button" android:drawablePadding="0.0dip" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+    <com.android.internal.widget.LockPatternView android:id="@id/lockPattern" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:layout_rowSpan="7" />
+    <include android:layout_gravity="fill" android:id="@id/transport" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_column="0" android:layout_row="0" android:layout_rowSpan="5" android:layout_columnSpan="1" layout="@layout/keyguard_transport_control" />
+    <RelativeLayout android:layout_gravity="fill" android:id="@id/faceLockAreaView" android:background="@drawable/intro_bg" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginLeft="8.0dip" android:layout_column="1" android:layout_row="0" android:layout_rowSpan="7" android:layout_columnSpan="1">
+        <View android:id="@id/spotlightMask" android:background="@color/facelock_spotlight_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/cancel_button" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_facial_backup" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</GridLayout>

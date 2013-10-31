@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="background" />
+    <item type="id" name="checkbox" />
+    <item type="id" name="content" />
+    <item type="id" name="edit" />
+    <item type="id" name="empty" />
+    <item type="id" name="hint" />
+    <item type="id" name="icon" />
+    <item type="id" name="icon1" />
+    <item type="id" name="icon2" />
+    <item type="id" name="input" />
+    <item type="id" name="list" />
+    <item type="id" name="message" />
+    <item type="id" name="primary" />
+    <item type="id" name="progress" />
+    <item type="id" name="selectedIcon" />
+    <item type="id" name="secondaryProgress" />
+    <item type="id" name="summary" />
+    <item type="id" name="tabcontent" />
+    <item type="id" name="tabhost" />
+    <item type="id" name="tabs" />
+    <item type="id" name="text1" />
+    <item type="id" name="text2" />
+    <item type="id" name="title" />
+    <item type="id" name="toggle" />
+    <item type="id" name="widget_frame" />
+    <item type="id" name="button1" />
+    <item type="id" name="button2" />
+    <item type="id" name="button3" />
+    <item type="id" name="extractArea" />
+    <item type="id" name="candidatesArea" />
+    <item type="id" name="inputArea" />
+    <item type="id" name="selectAll" />
+    <item type="id" name="cut" />
+    <item type="id" name="copy" />
+    <item type="id" name="paste" />
+    <item type="id" name="copyUrl" />
+    <item type="id" name="switchInputMethod" />
+    <item type="id" name="inputExtractEditText" />
+    <item type="id" name="keyboardView" />
+    <item type="id" name="closeButton" />
+    <item type="id" name="startSelectingText" />
+    <item type="id" name="stopSelectingText" />
+    <item type="id" name="addToDictionary" />
+    <item type="id" name="custom" />
+    <item type="id" name="home" />
+    <item type="id" name="selectTextMode" />
+    <item type="id" name="left_icon" />
+    <item type="id" name="menu" />
+    <item type="id" name="right_icon" />
+    <item type="id" name="title_container" />
+    <item type="id" name="lock_screen" />
+    <item type="id" name="accountPreferences" />
+    <item type="id" name="smallIcon" />
+    <item type="id" name="fillInIntent" />
+    <item type="id" name="rowTypeId" />
+    <item type="id" name="up" />
+    <item type="id" name="action_menu_divider" />
+    <item type="id" name="icon_menu_presenter" />
+    <item type="id" name="list_menu_presenter" />
+    <item type="id" name="action_menu_presenter" />
+    <item type="id" name="overflow_menu_presenter" />
+    <item type="id" name="popup_submenu_presenter" />
+    <item type="id" name="action_bar_title" />
+    <item type="id" name="action_bar_subtitle" />
+    <item type="id" name="action_mode_close_button" />
+    <item type="id" name="activity_chooser_view_content" />
+    <item type="id" name="expand_activities_button" />
+    <item type="id" name="image" />
+    <item type="id" name="default_activity_button" />
+    <item type="id" name="list_item" />
+    <item type="id" name="parentPanel" />
+    <item type="id" name="topPanel" />
+    <item type="id" name="title_template" />
+    <item type="id" name="alertTitle" />
+    <item type="id" name="titleDivider" />
+    <item type="id" name="buttonPanel" />
+    <item type="id" name="leftSpacer" />
+    <item type="id" name="rightSpacer" />
+    <item type="id" name="contentPanel" />
+    <item type="id" name="scrollView" />
+    <item type="id" name="customPanel" />
+    <item type="id" name="titleDividerTop" />
+    <item type="id" name="progress_percent" />
+    <item type="id" name="progress_number" />
+    <item type="id" name="alwaysUse" />
+    <item type="id" name="clearDefaultHint" />
+    <item type="id" name="compat_checkbox" />
+    <item type="id" name="ask_checkbox" />
+    <item type="id" name="reask_hint" />
+    <item type="id" name="perm_icon" />
+    <item type="id" name="permission_group" />
+    <item type="id" name="permission_list" />
+    <item type="id" name="no_permissions" />
+    <item type="id" name="dangerous_perms_list" />
+    <item type="id" name="show_more" />
+    <item type="id" name="show_more_text" />
+    <item type="id" name="show_more_icon" />
+    <item type="id" name="non_dangerous_perms_list" />
+    <item type="id" name="month_name" />
+    <item type="id" name="day_names" />
+    <item type="id" name="characterPicker" />
+    <item type="id" name="cancel" />
+    <item type="id" name="account_row_icon" />
+    <item type="id" name="account_row_text" />
+    <item type="id" name="description" />
+    <item type="id" name="button_bar" />
+    <item type="id" name="pickers" />
+    <item type="id" name="month" />
+    <item type="id" name="day" />
+    <item type="id" name="year" />
+    <item type="id" name="calendar_view" />
+    <item type="id" name="datePicker" />
+    <item type="id" name="expanded_menu" />
+    <item type="id" name="status" />
+    <item type="id" name="option1" />
+    <item type="id" name="option2" />
+    <item type="id" name="option3" />
+    <item type="id" name="grant_credentials_permission_message_header" />
+    <item type="id" name="packages_list" />
+    <item type="id" name="permission_icon" />
+    <item type="id" name="account_type" />
+    <item type="id" name="account_name" />
+    <item type="id" name="authtoken_type" />
+    <item type="id" name="grant_credentials_permission_message_footer" />
+    <item type="id" name="buttons" />
+    <item type="id" name="deny_button" />
+    <item type="id" name="allow_button" />
+    <item type="id" name="switch_old" />
+    <item type="id" name="old_app_icon" />
+    <item type="id" name="old_app_action" />
+    <item type="id" name="old_app_description" />
+    <item type="id" name="switch_new" />
+    <item type="id" name="new_app_icon" />
+    <item type="id" name="new_app_action" />
+    <item type="id" name="new_app_description" />
+    <item type="id" name="icon_menu" />
+    <item type="id" name="fullscreenArea" />
+    <item type="id" name="inputExtractAccessories" />
+    <item type="id" name="inputExtractAction" />
+    <item type="id" name="inputExtractEditButton" />
+    <item type="id" name="hard_keyboard_section" />
+    <item type="id" name="hard_keyboard_switch" />
+    <item type="id" name="value" />
+    <item type="id" name="label" />
+    <item type="id" name="emergencyCallButton" />
+    <item type="id" name="topHeader" />
+    <item type="id" name="spacerTop" />
+    <item type="id" name="instructions" />
+    <item type="id" name="login" />
+    <item type="id" name="password" />
+    <item type="id" name="ok" />
+    <item type="id" name="headerSimOk1" />
+    <item type="id" name="headerSimOk2" />
+    <item type="id" name="headerSimBad1" />
+    <item type="id" name="headerSimBad2" />
+    <item type="id" name="batteryInfo" />
+    <item type="id" name="batteryInfoIcon" />
+    <item type="id" name="batteryInfoText" />
+    <item type="id" name="batteryInfoSpacer" />
+    <item type="id" name="nextAlarmInfo" />
+    <item type="id" name="nextAlarmText" />
+    <item type="id" name="nextAlarmSpacer" />
+    <item type="id" name="screenLockedInfo" />
+    <item type="id" name="lockInstructions" />
+    <item type="id" name="root" />
+    <item type="id" name="timeDisplayBackground" />
+    <item type="id" name="timeDisplayForeground" />
+    <item type="id" name="alarm_status" />
+    <item type="id" name="status1" />
+    <item type="id" name="carrier" />
+    <item type="id" name="passwordEntry" />
+    <item type="id" name="pinDel" />
+    <item type="id" name="switch_ime_button" />
+    <item type="id" name="transport" />
+    <item type="id" name="faceLockAreaView" />
+    <item type="id" name="spotlightMask" />
+    <item type="id" name="cancel_button" />
+    <item type="id" name="transport_bg_protect" />
+    <item type="id" name="headerText" />
+    <item type="id" name="pinDisplayGroup" />
+    <item type="id" name="pinDisplay" />
+    <item type="id" name="backspace" />
+    <item type="id" name="topDisplayGroup" />
+    <item type="id" name="keyPad" />
+    <item type="id" name="spacerBottom" />
+    <item type="id" name="enter_puk" />
+    <item type="id" name="enter_pin" />
+    <item type="id" name="pukDisplay" />
+    <item type="id" name="pukDel" />
+    <item type="id" name="propertyOf" />
+    <item type="id" name="unlock_widget" />
+    <item type="id" name="screenLocked" />
+    <item type="id" name="forgotPatternButton" />
+    <item type="id" name="lockPattern" />
+    <item type="id" name="transport_controls" />
+    <item type="id" name="albumart" />
+    <item type="id" name="btn_prev" />
+    <item type="id" name="btn_play" />
+    <item type="id" name="btn_next" />
+    <item type="id" name="replace_app_icon" />
+    <item type="id" name="replace_message" />
+    <item type="id" name="original_app_icon" />
+    <item type="id" name="original_message" />
+    <item type="id" name="progressContainer" />
+    <item type="id" name="listContainer" />
+    <item type="id" name="internalEmpty" />
+    <item type="id" name="shortcut" />
+    <item type="id" name="radio" />
+    <item type="id" name="prev" />
+    <item type="id" name="rew" />
+    <item type="id" name="pause" />
+    <item type="id" name="ffwd" />
+    <item type="id" name="next" />
+    <item type="id" name="time_current" />
+    <item type="id" name="mediacontroller_progress" />
+    <item type="id" name="volume_icon" />
+    <item type="id" name="volume_slider" />
+    <item type="id" name="extended_settings" />
+    <item type="id" name="expand_button" />
+    <item type="id" name="check" />
+    <item type="id" name="index" />
+    <item type="id" name="action0" />
+    <item type="id" name="actions" />
+    <item type="id" name="action1" />
+    <item type="id" name="action2" />
+    <item type="id" name="status_bar_latest_event_content" />
+    <item type="id" name="line1" />
+    <item type="id" name="chronometer" />
+    <item type="id" name="line3" />
+    <item type="id" name="info" />
+    <item type="id" name="big_text" />
+    <item type="id" name="action_divider" />
+    <item type="id" name="big_picture" />
+    <item type="id" name="overflow_divider" />
+    <item type="id" name="inbox_text0" />
+    <item type="id" name="inbox_text1" />
+    <item type="id" name="inbox_text2" />
+    <item type="id" name="inbox_text3" />
+    <item type="id" name="inbox_text4" />
+    <item type="id" name="inbox_text5" />
+    <item type="id" name="inbox_text6" />
+    <item type="id" name="inbox_more" />
+    <item type="id" name="increment" />
+    <item type="id" name="numberpicker_input" />
+    <item type="id" name="decrement" />
+    <item type="id" name="package_icon" />
+    <item type="id" name="package_label" />
+    <item type="id" name="keyguard" />
+    <item type="id" name="off" />
+    <item type="id" name="silent" />
+    <item type="id" name="radio_power" />
+    <item type="id" name="edittext_container" />
+    <item type="id" name="headers" />
+    <item type="id" name="list_footer" />
+    <item type="id" name="prefs_frame" />
+    <item type="id" name="prefs" />
+    <item type="id" name="back_button" />
+    <item type="id" name="skip_button" />
+    <item type="id" name="next_button" />
+    <item type="id" name="seekbar" />
+    <item type="id" name="switchWidget" />
+    <item type="id" name="body" />
+    <item type="id" name="no_applications_message" />
+    <item type="id" name="button0" />
+    <item type="id" name="button4" />
+    <item type="id" name="button5" />
+    <item type="id" name="button6" />
+    <item type="id" name="button7" />
+    <item type="id" name="default_loading_view" />
+    <item type="id" name="resolver_grid" />
+    <item type="id" name="button_always" />
+    <item type="id" name="button_once" />
+    <item type="id" name="action_mode_bar_stub" />
+    <item type="id" name="action_mode_bar" />
+    <item type="id" name="right_container" />
+    <item type="id" name="progress_circular" />
+    <item type="id" name="progress_horizontal" />
+    <item type="id" name="action_bar_container" />
+    <item type="id" name="action_bar" />
+    <item type="id" name="action_context_bar" />
+    <item type="id" name="split_action_bar" />
+    <item type="id" name="action_bar_overlay_layout" />
+    <item type="id" name="top_action_bar" />
+    <item type="id" name="search_bar" />
+    <item type="id" name="search_app_icon" />
+    <item type="id" name="search_view" />
+    <item type="id" name="edit_query" />
+    <item type="id" name="search_badge" />
+    <item type="id" name="search_button" />
+    <item type="id" name="search_edit_frame" />
+    <item type="id" name="search_mag_icon" />
+    <item type="id" name="search_plate" />
+    <item type="id" name="search_src_text" />
+    <item type="id" name="search_close_btn" />
+    <item type="id" name="submit_area" />
+    <item type="id" name="search_go_btn" />
+    <item type="id" name="search_voice_btn" />
+    <item type="id" name="select_dialog_listview" />
+    <item type="id" name="placeholder" />
+    <item type="id" name="title_separator" />
+    <item type="id" name="issued_to_header" />
+    <item type="id" name="to_common_header" />
+    <item type="id" name="to_common" />
+    <item type="id" name="to_org_header" />
+    <item type="id" name="to_org" />
+    <item type="id" name="to_org_unit_header" />
+    <item type="id" name="to_org_unit" />
+    <item type="id" name="serial_number_header" />
+    <item type="id" name="serial_number" />
+    <item type="id" name="by_common_header" />
+    <item type="id" name="by_common" />
+    <item type="id" name="by_org_header" />
+    <item type="id" name="by_org" />
+    <item type="id" name="by_org_unit_header" />
+    <item type="id" name="by_org_unit" />
+    <item type="id" name="validity_header" />
+    <item type="id" name="issued_on_header" />
+    <item type="id" name="issued_on" />
+    <item type="id" name="expires_on_header" />
+    <item type="id" name="expires_on" />
+    <item type="id" name="fingerprints" />
+    <item type="id" name="sha256_fingerprint_header" />
+    <item type="id" name="sha256_fingerprint" />
+    <item type="id" name="sha1_fingerprint_header" />
+    <item type="id" name="sha1_fingerprint" />
+    <item type="id" name="hour" />
+    <item type="id" name="minute" />
+    <item type="id" name="amPm" />
+    <item type="id" name="timePicker" />
+    <item type="id" name="divider" />
+    <item type="id" name="one" />
+    <item type="id" name="two" />
+    <item type="id" name="three" />
+    <item type="id" name="four" />
+    <item type="id" name="five" />
+    <item type="id" name="six" />
+    <item type="id" name="seven" />
+    <item type="id" name="eight" />
+    <item type="id" name="nine" />
+    <item type="id" name="zero" />
+    <item type="id" name="main" />
+    <item type="id" name="banner" />
+    <item type="id" name="mount_button" />
+    <item type="id" name="unmount_button" />
+    <item type="id" name="visible_panel" />
+    <item type="id" name="slider_group" />
+    <item type="id" name="expand_button_divider" />
+    <item type="id" name="stream_icon" />
+    <item type="id" name="webview" />
+    <item type="id" name="splashscreen" />
+    <item type="id" name="matches" />
+    <item type="id" name="enter_pin_section" />
+    <item type="id" name="wifi_p2p_wps_pin" />
+    <item type="id" name="name" />
+    <item type="id" name="zoom_fit_page" />
+    <item type="id" name="zoom_page_overview" />
+    <item type="id" name="zoomControls" />
+    <item type="id" name="zoomOut" />
+    <item type="id" name="zoomIn" />
+    <item type="id" name="zoomMagnify" />
+    <item type="id" name="mode_normal" />
+    <item type="id" name="select_all" />
+    <item type="id" name="share" />
+    <item type="id" name="find" />
+    <item type="id" name="websearch" />
+    <item type="id" name="find_prev" />
+    <item type="id" name="find_next" />
+    <item type="id" name="keyguardDialog_list_item_text">false</item>
+    <item type="id" name="keyguard_dialog_checkbox">false</item>
+    <item type="id" name="keyguard_dialog_boot">false</item>
+    <item type="id" name="keyguard_screen_dialog">false</item>
+    <item type="id" name="keyguard_dialog_listview">false</item>
+    <item type="id" name="keyguard_dialog_button">false</item>
+    <item type="id" name="keyguard_dialog_positive_button">false</item>
+    <item type="id" name="keyguard_dialog_negative_button">false</item>
+    <item type="id" name="set_background_view">false</item>
+    <item type="id" name="keyguard_widget_linearLayout">false</item>
+    <item type="id" name="yl_unlock_widget_layout">false</item>
+    <item type="id" name="mySwitchParentLayout">false</item>
+    <item type="id" name="mySwitchLinearLayout">false</item>
+    <item type="id" name="slidingTipLinearLayout">false</item>
+    <item type="id" name="slidingTiptTextView">false</item>
+    <item type="id" name="slidingTiptImageView">false</item>
+    <item type="id" name="lockScreenDialogSettingButton">false</item>
+    <item type="id" name="keyguard_dialog_view">false</item>
+    <item type="id" name="mute_switch_icon">false</item>
+    <item type="id" name="status_bar_latest_event_content_large_icon">false</item>
+    <item type="id" name="toast_layout_root">false</item>
+    <item type="id" name="keyguard_widget_date_time_parent_layout">false</item>
+    <item type="id" name="show_date_time_layout">false</item>
+    <item type="id" name="LinearLayout01">false</item>
+    <item type="id" name="am_pm">false</item>
+    <item type="id" name="date_alarm_layout">false</item>
+    <item type="id" name="LinearLayout03">false</item>
+    <item type="id" name="show_double_date_time_layout1">false</item>
+    <item type="id" name="place_1_name_textView">false</item>
+    <item type="id" name="time_1_LinearLayout">false</item>
+    <item type="id" name="time_1">false</item>
+    <item type="id" name="time_1_DisplayBackground">false</item>
+    <item type="id" name="am_pm_1">false</item>
+    <item type="id" name="date_1_alarm_layout">false</item>
+    <item type="id" name="date_1">false</item>
+    <item type="id" name="alarm_status_1">false</item>
+    <item type="id" name="place_2_name_textView">false</item>
+    <item type="id" name="time_2_LinearLayout">false</item>
+    <item type="id" name="time_2">false</item>
+    <item type="id" name="time_2_DisplayBackground">false</item>
+    <item type="id" name="am_pm_2">false</item>
+    <item type="id" name="date_2">false</item>
+    <item type="id" name="alarm_status_2">false</item>
+    <item type="id" name="yl_unlock_widget_flipper">false</item>
+    <item type="id" name="yl_unlock_widgetFlipper">false</item>
+    <item type="id" name="item_layout">false</item>
+    <item type="id" name="widgetUnit">false</item>
+    <item type="id" name="unreadInfoLogo">false</item>
+    <item type="id" name="unreadInfoTv">false</item>
+    <item type="id" name="yl_map_image">false</item>
+    <item type="id" name="keyguard_widget_infobox_parent_layout">false</item>
+    <item type="id" name="weatherImageLayout">false</item>
+    <item type="id" name="weather_imgView">false</item>
+    <item type="id" name="yl_weather_cent_secant">false</item>
+    <item type="id" name="listViewLayout">false</item>
+    <item type="id" name="unreadInfoListView">false</item>
+    <item type="id" name="keyguard_widget_music_parent_layout">false</item>
+    <item type="id" name="showmusic">false</item>
+    <item type="id" name="cover_parent">false</item>
+    <item type="id" name="cover">false</item>
+    <item type="id" name="music_name">false</item>
+    <item type="id" name="music_control">false</item>
+    <item type="id" name="button_pre">false</item>
+    <item type="id" name="button_play">false</item>
+    <item type="id" name="button_pause">false</item>
+    <item type="id" name="button_next">false</item>
+    <item type="id" name="yl_unlock_widget_bg_setting_layout">false</item>
+    <item type="id" name="unlock_widget_Tv_layout">false</item>
+    <item type="id" name="unlock_widget_setbgalpha_tv">false</item>
+    <item type="id" name="unlock_widget_bgalpha_tv">false</item>
+    <item type="id" name="unlock_widget_radiobutton_layout">false</item>
+    <item type="id" name="unlock_widget_radiogroup">false</item>
+    <item type="id" name="unlock_widget_radioButton1">false</item>
+    <item type="id" name="unlock_widget_radioButton2">false</item>
+    <item type="id" name="unlock_widget_radioButton3">false</item>
+    <item type="id" name="unlock_widget_radioButton4">false</item>
+    <item type="id" name="keyguard_widget_weather_parent_layout">false</item>
+    <item type="id" name="yl_weather_image">false</item>
+    <item type="id" name="weatherTextLayout">false</item>
+    <item type="id" name="yl_weather_prompt_TextView1">false</item>
+    <item type="id" name="yl_weather_prompt_TextView2">false</item>
+    <item type="id" name="cw_notifi_image">false</item>
+    <item type="id" name="cw_notifi_title">false</item>
+    <item type="id" name="cw_notifi_text">false</item>
+    <item type="id" name="fangdao_background">false</item>
+    <item type="id" name="fangdao_arrows">false</item>
+    <item type="id" name="login_text">false</item>
+    <item type="id" name="login_password_error">false</item>
+    <item type="id" name="new_password_text">false</item>
+    <item type="id" name="password_hint_button">false</item>
+    <item type="id" name="password_cancel_button">false</item>
+    <item type="id" name="mibao_background">false</item>
+    <item type="id" name="mibao_arrows">false</item>
+</resources>

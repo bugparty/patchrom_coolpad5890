@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/keyguard_widget_infobox_parent_layout" android:layout_width="fill_parent" android:layout_height="144.0dip" android:layout_marginLeft="3.2999878dip" android:layout_marginRight="3.2999878dip">
+        <LinearLayout android:gravity="center" android:id="@id/weatherImageLayout" android:layout_width="0.0dip" android:layout_height="0.0dip">
+            <ImageView android:id="@id/weather_imgView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView android:id="@id/yl_weather_cent_secant" android:background="@drawable/yl_unlock_widget_weather_cent_secant" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <LinearLayout android:id="@id/listViewLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/unreadInfoListView" android:focusable="false" android:focusableInTouchMode="false" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

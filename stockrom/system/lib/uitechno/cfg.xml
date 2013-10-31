@@ -1,0 +1,35 @@
+﻿<root>
+	<component name="common">
+	  <item key="networkType" value="SC"/>
+    <item key="defaultLiveWallpaper" value=""/>
+	</component>
+	<component name="launcher">
+		<item key="widgetSort" value="com.yulong.android.weatherwidget.WeatherWidget;com.yulong.android.sns.widget.SnsReceiver;com.xianguo.pad.appwidget.XgAppWidgetProvider;yulong.xtime.widget.worldclock.WorldClockProvider;com.android.music.MediaAppWidgetProvider;yulong.xtime.ui.alarmclock.AnalogAppWidgetProvider;com.yulong.android.memo.widget.MyWidgetProvider;com.android.gallery3d.gadget.PhotoAppWidgetProvider;com.icoolme.android.news.widget.CloundWidgetProvider;com.yulong.android.calendar.widget.CalendarAppWidgetProvider;com.android.music.MediaAppBigWidgetProvider;com.icoolme.android.weather_widget_d.WeatherWidget4x2Provider;com.icoolme.android.weather_widget_d.WeatherWidget1x2Provider"/>
+		<item key="THD_ICON_WIDTH" value=""/>
+		<item key="THD_ICON_HEIGHT" value=""/>
+		<item key="ICON_SINGLE_LINE" value=""/>
+		<item key="HIDE_APP_ENABLE" value=""/>
+		<item key="SCREEN_SIZE" value=""/>
+		<item key="SNAP_DURATION" value=""/>
+		<item key="SNAP_ROUND" value=""/>
+		<item key="QQPackageName" value=""/>
+		<item key="UnicomPackageName" value="com.yulong.android.wo;com.infinit.wostore.ui;com.sinovatech.unicom.ui;com.neusoft.td.android.wo116114;com.asiainfo.android"/>
+		<item key="FORBID_DELETE_SHORTCUT_PACKAGE_SET" value=""/>
+		<item key="MENU_EDIT" value=""/>
+		<item key="HIDE_DESK_SHORTCUT" value="false"/>
+		<item key="USE_COOLSHOW" value=""/>
+		<item key="IGNORE_UNINSTALL_PACKAGE_SET" value=""/>
+		<item key="USE_YULONG_APP_MANAGER" value=""/>
+	</component>
+	<component name="systemUI">
+	  <item key="networkType" value="SC"/>
+	  <item key="cardName" value="usim"/>
+	  <item key="DataNetNameType" value="0" />
+	  <item key="shortcut" value="0,1,2,3,4,5,6,7,9,10,15,12,11,14,13,16" />
+	</component>
+	<component name="widget">
+           <item key="maximumVelocity" value="12000"/>
+           <item key="velocityScale" value="2"/>
+           <item key="scrollMinVelocity" value="800"/>
+  </component>
+</root>

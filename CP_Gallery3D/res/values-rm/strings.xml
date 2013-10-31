@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Catalog</string>
+    <string name="gadget_title">Rom da maletgs</string>
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <string name="movie_view_label">Films</string>
+    <string name="loading_video">Chargiar il video…</string>
+    <string name="resume_playing_title">Cuntinuar cun il video</string>
+    <string name="resume_playing_message">Cuntinuar la reproducziun davent da %s?</string>
+    <string name="resume_playing_resume">Cuntinuar la reproducziun</string>
+    <string name="resume_playing_restart">Cumenzar</string>
+    <string name="crop_save_text">Memorisar</string>
+    <string name="multiface_crop_help">Smatgai sin ina fatscha per cumenzar.</string>
+    <string name="saving_image">Memorisar il maletg...</string>
+    <string name="crop_label">Retagliar il maletg</string>
+    <string name="set_image">Definir il maletg sco</string>
+    <string name="wallpaper">La culissa vegn configurada. Spetgai per plaschair...</string>
+    <string name="camera_setas_wallpaper">Culissa</string>
+    <string name="delete">Stizzar</string>
+    <string name="confirm_delete">Confermar il stizzar</string>
+    <string name="cancel">Interrumper</string>
+    <string name="share">Cundivider</string>
+    <string name="select_all">Selecziunar tut</string>
+    <string name="deselect_all">Deselecziunar tut</string>
+    <string name="slideshow">Preschentaziun da dia</string>
+    <string name="details">Detagls</string>
+    <string name="show_on_map">Mussar sin la charta</string>
+    <string name="rotate_left">Rotar a sanestra</string>
+    <string name="rotate_right">Rotar a dretga</string>
+    <string name="set_as">Definir sco</string>
+    <string name="video_err">Impussibel da reproducir il video</string>
+    <string name="title">Titel</string>
+    <string name="location">Lieu</string>
+    <string name="settings">Parameters</string>
+</resources>

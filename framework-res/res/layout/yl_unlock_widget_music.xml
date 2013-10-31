@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="horizontal" android:id="@id/keyguard_widget_music_parent_layout" android:background="@drawable/yl_unlock_widget_background1" android:layout_width="fill_parent" android:layout_height="144.0dip" android:layout_marginLeft="3.2999878dip" android:layout_marginRight="3.2999878dip">
+        <RelativeLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/showmusic" android:background="@drawable/keyguard_music_background" android:visibility="visible" android:layout_width="335.0dip" android:layout_height="107.5dip">
+            <LinearLayout android:id="@id/cover_parent" android:layout_width="90.5dip" android:layout_height="90.5dip" android:layout_marginLeft="8.5dip">
+                <ImageView android:id="@id/cover" android:background="@drawable/keyguard_music_thecover" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textColor="#ff000000" android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/music_name" android:focusableInTouchMode="true" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" android:shadowColor="@color/black" android:shadowDx="0.0" android:shadowDy="0.51" android:shadowRadius="1.0" android:layout_toRightOf="@id/cover_parent" />
+            <RelativeLayout android:orientation="horizontal" android:id="@id/music_control" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="99.0dip" android:layout_marginTop="45.0dip">
+                <Button android:id="@id/button_pre" android:background="@drawable/keyguard_music_pre_button_selector" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="37.0dip" android:layout_alignParentLeft="true" />
+                <Button android:id="@id/button_play" android:background="@drawable/keyguard_music_play_button_selector" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerHorizontal="true" />
+                <Button android:id="@id/button_pause" android:background="@drawable/keyguard_music_pause_button_selector" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerHorizontal="true" />
+                <Button android:id="@id/button_next" android:background="@drawable/keyguard_music_next_button_selector" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="37.0dip" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</FrameLayout>

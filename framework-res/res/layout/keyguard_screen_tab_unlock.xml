@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/keyguard_widget_linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+            <include android:id="@id/yl_unlock_widget_layout" android:layout_width="fill_parent" android:layout_height="144.0dip" layout="@layout/yl_unlock_widget_layout" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:orientation="vertical" android:id="@id/mySwitchParentLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <FrameLayout android:layout_gravity="right" android:id="@id/mySwitchLinearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_marginRight="43.5dip" />
+                <LinearLayout android:gravity="right" android:layout_gravity="right" android:orientation="horizontal" android:id="@id/slidingTipLinearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_marginRight="43.5dip">
+                    <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:id="@id/slidingTiptTextView" android:layout_width="6.0dip" android:layout_height="40.0dip" />
+                    <ImageView android:id="@id/slidingTiptImageView" android:background="@drawable/keyguard_sliding_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </FrameLayout>
+            <Button android:id="@id/lockScreenDialogSettingButton" android:background="@drawable/keyguard_dialog_setting_button_bg" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_toLeftOf="@id/mySwitchParentLayout" />
+        </RelativeLayout>
+        <Space android:layout_gravity="fill" />
+        <Button android:layout_gravity="right" android:id="@id/emergencyCallButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:text="@string/lockscreen_emergency_call" android:drawableLeft="@drawable/lockscreen_emergency_button" android:drawablePadding="4.0dip" style="?android:attr/buttonBarButtonStyle" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="302.0dip">
+            <com.android.internal.widget.multiwaveview.GlowPadView android:orientation="horizontal" android:id="@id/unlock_widget" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:innerRadius="@dimen/glowpadview_inner_radius" android:targetDescriptions="@array/lockscreen_target_descriptions_with_camera" android:directionDescriptions="@array/lockscreen_direction_descriptions" android:outerRingDrawable="@drawable/ic_lockscreen_outerring" android:pointDrawable="@drawable/ic_lockscreen_glowdot" android:glowRadius="@dimen/glowpadview_glow_radius" android:targetDrawables="@array/lockscreen_targets_with_camera" android:handleDrawable="@drawable/ic_lockscreen_handle" android:outerRadius="@dimen/glowpadview_target_placement_radius" android:vibrationDuration="20" android:snapMargin="@dimen/glowpadview_snap_margin" android:feedbackCount="1" />
+            <TextView android:textAppearance="?textAppearanceMedium" android:textSize="@dimen/keyguard_lockscreen_status_line_font_size" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/carrier" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="34.0dip" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="2.0" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:weightSum="2.0" style="?android:attr/buttonBarStyle">
+            <Button android:textSize="@dimen/keyguard_lockscreen_status_line_font_size" android:layout_gravity="center_horizontal" android:id="@id/emergencyCallButton" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/lockscreen_emergency_call" android:drawableLeft="@drawable/lockscreen_emergency_button" android:drawablePadding="0.0dip" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        </LinearLayout>
+        <include android:layout_gravity="fill" android:id="@id/transport" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_column="0" android:layout_row="0" android:layout_rowSpan="4" android:layout_columnSpan="1" layout="@layout/keyguard_transport_control" />
+    </GridLayout>
+    <include android:id="@id/keyguard_dialog_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/keyguard_screen_dialog" />
+</FrameLayout>

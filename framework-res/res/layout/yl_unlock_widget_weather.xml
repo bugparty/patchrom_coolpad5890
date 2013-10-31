@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/keyguard_widget_weather_parent_layout" android:background="@drawable/yl_unlock_widget_background1" android:layout_width="fill_parent" android:layout_height="144.0dip" android:layout_marginLeft="3.2999878dip" android:layout_marginRight="3.2999878dip">
+        <RelativeLayout android:gravity="center" android:orientation="horizontal" android:layout_width="142.0dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/yl_weather_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <ImageView android:id="@id/yl_weather_cent_secant" android:background="@drawable/yl_unlock_widget_weather_cent_secant" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/weatherTextLayout" android:layout_width="fill_parent" android:layout_height="144.0dip">
+            <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:id="@id/yl_weather_prompt_TextView1" android:layout_width="180.0dip" android:layout_height="wrap_content" android:text="@string/keyguard_weather_prompt" />
+            <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:id="@id/yl_weather_prompt_TextView2" android:layout_width="180.0dip" android:layout_height="80.0dip" android:layout_marginTop="10.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

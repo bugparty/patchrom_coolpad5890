@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Pasirinkta: %1$d</item>
+        <item quantity="zero">Pasirinkta: %1$d</item>
+        <item quantity="one">Pasirinkta: %1$d</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Pasirinkta: %1$d</item>
+        <item quantity="zero">Pasirinkta: %1$d</item>
+        <item quantity="one">Pasirinkta: %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Pasirinkta: %1$d</item>
+        <item quantity="zero">Pasirinkta: %1$d</item>
+        <item quantity="one">Pasirinkta: %1$d</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Nustatoma, kad albumai būtų pasiekiami neprisij.</item>
+        <item quantity="one">Nustatoma, kad albumas būtų pasiekiamas neprisij.</item>
+    </plurals>
+</resources>

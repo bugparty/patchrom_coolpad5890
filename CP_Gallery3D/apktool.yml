@@ -1,0 +1,12 @@
+version: 1.5.2
+apkFileName: CP_Gallery3D.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '3'
+packageInfo:
+  cur_package: com.android.gallery3d
+  orig_package: com.android.gallery3d
+compressionType: false

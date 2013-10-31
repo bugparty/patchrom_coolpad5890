@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/keyguard_dialog_boot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/keyguard_screen_dialog" android:background="@drawable/keyguard_screen_dialog_bg_green" android:layout_width="333.0dip" android:layout_height="428.5dip">
+        <TextView android:textSize="22.0dip" android:textColor="#ff599900" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="23.5dip" android:layout_marginTop="23.5dip" android:text="@string/keyguard_display_setting" android:layout_alignParentTop="true" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="262.5dip">
+            <ListView android:id="@id/keyguard_dialog_listview" android:paddingTop="69.5dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/keyguard_dialog_button" android:layout_width="fill_parent" android:layout_height="47.5dip" android:layout_alignParentBottom="true">
+            <Button android:textSize="16.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/keyguard_dialog_positive_button" android:background="@drawable/yl_lockscreen_btn_bg" android:layout_width="158.5dip" android:layout_height="fill_parent" android:text="@string/lockscreen_widget_apply" />
+            <Button android:textSize="16.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/keyguard_dialog_negative_button" android:background="@drawable/yl_lockscreen_btn_bg" android:layout_width="160.0dip" android:layout_height="fill_parent" android:text="@string/dialog_cancel" />
+        </LinearLayout>
+        <include android:id="@id/set_background_view" android:layout_width="fill_parent" android:layout_height="82.5dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="58.0dip" android:layout_alignParentBottom="true" layout="@layout/yl_unlock_widget_setbackground" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_camera_holo_light" android:id="@id/action_camera" android:title="@string/switch_to_camera" android:showAsAction="ifRoom" />
+    <item android:id="@id/action_select" android:title="@string/select_video" android:showAsAction="never" />
+    <item android:id="@id/action_manage_offline" android:title="@string/make_available_offline" android:showAsAction="never" />
+    <item android:id="@id/action_open_url" android:title="@string/menu_item_open_url" android:showAsAction="never" />
+    <item android:id="@id/action_apn_setting" android:title="@string/menu_item_apn_setting" android:showAsAction="never" />
+    <item android:id="@id/action_sync_picasa_albums" android:title="@string/sync_picasa_albums" android:showAsAction="never" />
+</menu>
