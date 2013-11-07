@@ -11,12 +11,10 @@ private-phone-apps := ApplicationsProvider \
 					  CP_SwitchNet \
 					  CP_UTK \
 					  CP_VideoPlayer \
-					  CP_BrowserUI \
 					  DefaultContainerService \
 					  DrmProvider \
 					  InputDevices \
 					  KeyChain \
-					  CP_IME \
 					  UserDictionaryProvider \
 					  VpnDialogs \
 					  CP_EngMode \

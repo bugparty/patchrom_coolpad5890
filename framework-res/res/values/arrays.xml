@@ -481,7 +481,9 @@
         <item>wlan0</item>
     </string-array>
     <array name="config_tether_wimax_regexs" />
-    <array name="config_tether_bluetooth_regexs" />
+    <string-array name="config_tether_bluetooth_regexs" >
+        <item>bnep\\d</item>
+    </string-array>
     <array name="config_tether_dhcp_range" />
     <array name="config_mobile_hotspot_provision_app" />
     <integer-array name="config_tether_upstream_types">
