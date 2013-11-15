@@ -1434,6 +1434,46 @@
     goto :goto_1
 .end method
 
+.method private getOverridePlmn(Ljava/lang/String;)Ljava/lang/String;
+    .locals 3
+    .parameter "plmn"
+    .annotation build Landroid/annotation/LewaHook;
+        value = .enum Landroid/annotation/LewaHook$LewaHookType;->NEW_METHOD:Landroid/annotation/LewaHook$LewaHookType;
+    .end annotation
+
+    .prologue
+    invoke-static {}, Lcom/android/internal/telephony/gsm/LewaSpnOverride;->getInstance()Lcom/android/internal/telephony/gsm/LewaSpnOverride;
+
+    move-result-object v1
+
+    iget-object v2, p0, Lcom/android/internal/telephony/cdma/CdmaServiceStateTracker;->ss:Landroid/telephony/ServiceState;
+
+    invoke-virtual {v2}, Landroid/telephony/ServiceState;->getOperatorNumeric()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/android/internal/telephony/gsm/LewaSpnOverride;->getSpn(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    .local v0, overridePlmn:Ljava/lang/String;
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    .end local v0           #overridePlmn:Ljava/lang/String;
+    :goto_0
+    return-object v0
+
+    .restart local v0       #overridePlmn:Ljava/lang/String;
+    :cond_0
+    move-object v0, p1
+
+    goto :goto_0
+.end method
+
 .method private getStateUpdateEvdoInCalling()I
     .locals 7
 
@@ -10184,6 +10224,9 @@
 
 .method protected pollStateDone()V
     .locals 27
+    .annotation build Landroid/annotation/LewaHook;
+        value = .enum Landroid/annotation/LewaHook$LewaHookType;->CHANGE_CODE:Landroid/annotation/LewaHook$LewaHookType;
+    .end annotation
 
     .prologue
     .line 1470
@@ -12912,6 +12955,9 @@
 
 .method protected updateSpnDisplay()V
     .locals 10
+    .annotation build Landroid/annotation/LewaHook;
+        value = .enum Landroid/annotation/LewaHook$LewaHookType;->CHANGE_CODE:Landroid/annotation/LewaHook$LewaHookType;
+    .end annotation
 
     .prologue
     const/4 v8, 0x3
@@ -12924,6 +12970,10 @@
     iget-object v7, p0, Lcom/android/internal/telephony/ServiceStateTracker;->ss:Landroid/telephony/ServiceState;
 
     invoke-virtual {v7}, Landroid/telephony/ServiceState;->getOperatorAlphaLong()Ljava/lang/String;
+
+    move-result-object v7
+
+    invoke-direct {p0, v7}, Lcom/android/internal/telephony/cdma/CdmaServiceStateTracker;->getOverridePlmn(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
