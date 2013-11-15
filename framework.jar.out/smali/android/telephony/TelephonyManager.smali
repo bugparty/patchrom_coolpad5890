@@ -455,6 +455,19 @@
     .end packed-switch
 .end method
 
+.method public getPhoneCountExt()I
+    .locals 1
+    .annotation build Landroid/annotation/LewaHook;
+        value = .enum Landroid/annotation/LewaHook$LewaHookType;->NEW_METHOD:Landroid/annotation/LewaHook$LewaHookType;
+    .end annotation
+
+    .prologue
+    const/4 v0, 0x1
+
+    .local v0, phoneCount:I
+    return v0
+.end method
+
 .method public static getPhoneCount()I
     .locals 2
 
